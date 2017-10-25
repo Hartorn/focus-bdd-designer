@@ -25,7 +25,7 @@ class TableElt extends Component {
      */
     render() {
         return (
-            <Draggable onStart={console.log} onStop={console.log}>
+            <Draggable onStart={console.log} onStop={console.log} bounds='parent'>
                 <div style={{ display: 'inline-block' }}>
                     <Panel title={'Test'} >
                         <div>{'Un test'}</div>

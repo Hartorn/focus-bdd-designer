@@ -24,7 +24,6 @@ export default React.createClass({
     render() {
         return (
             <Menu items={this._getMenuItems()} handleBrandClick={this._onHomeClick} />
-
         );
     }
 });

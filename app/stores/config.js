@@ -9,6 +9,8 @@ const configStore = new CoreStore({
     }
 });
 
+configStore.name = 'ConfigStore';
+
 const getConfigValue = function getConfigValue(name) {
     return this.getConfig()[name];
 };

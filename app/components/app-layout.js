@@ -10,6 +10,7 @@ const CustomLayout = (props) => (
         <Layout
             Footer={Footer}
             MenuLeft={MenuLeft}
+            AppHeader={() => (null)}
         >
             {props.children}
         </Layout>
